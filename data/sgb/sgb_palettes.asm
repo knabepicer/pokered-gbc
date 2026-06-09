@@ -49,7 +49,7 @@ ENDC
 
 ; The following are only available with gen 2 graphics patch: individual palettes for
 ; pokemon, trainers, etc.
-
+; black then light grey then dark grey then white when adding
 IF GEN_2_GRAPHICS
 	RGB 31,31,31, 12,31,11, 31,10,06, 00,00,00 ; PAL_BULBASAUR
 	RGB 31,31,31, 12,31,11, 31,12,17, 00,00,00 ; PAL_IVYSAUR
