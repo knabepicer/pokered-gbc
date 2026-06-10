@@ -4,8 +4,14 @@
 -Hold B to run/surf/bike faster
 
 
-
-
+Encounter changes (many based on shin pokemon red):
+Bulbasaur added to route 4
+Squirtle added to route 6
+Charmander added to roue 25
+Ekans and Sandshrew can be found in route 4 regardless of version (but rarer on swapped versions)
+Vulpix and Growlithe can be found in route 8 regardless of version (but rarer on swapped versions)
+Mankey and Meowth can be found in route 5 regardless of version (but rarer on swapped versions)
+Oddish and Bellsprout can be found in route 5 regardless of version (but rarer on swapped versions)
 
 
 

@@ -9,8 +9,8 @@ IF DEF(_RED)
 	db 20, MANKEY
 	db 19, EKANS
 	db 17, GROWLITHE
-	db 15, GROWLITHE
-	db 18, GROWLITHE
+	db 15, VULPIX
+	db 18, VULPIX
 ENDC
 IF DEF(_BLUE)
 	db 18, MEOWTH
@@ -20,8 +20,8 @@ IF DEF(_BLUE)
 	db 20, MEOWTH
 	db 19, SANDSHREW
 	db 17, VULPIX
-	db 15, VULPIX
-	db 18, VULPIX
+	db 15, GROWLITHE
+	db 18, GROWLITHE
 ENDC
 	end_grass_wildmons
 

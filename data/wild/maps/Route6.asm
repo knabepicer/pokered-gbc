@@ -9,8 +9,8 @@ IF DEF(_RED)
 	db 15, ODDISH
 	db 16, ODDISH
 	db 16, PIDGEY
-	db 14, MANKEY
-	db 16, MANKEY
+	db 12, SQUIRTLE
+	db 14, SQUIRTLE
 ENDC
 IF DEF(_BLUE)
 	db 13, BELLSPROUT
@@ -21,8 +21,8 @@ IF DEF(_BLUE)
 	db 15, BELLSPROUT
 	db 16, BELLSPROUT
 	db 16, PIDGEY
-	db 14, MEOWTH
-	db 16, MEOWTH
+	db 12, SQUIRTLE
+	db 14, SQUIRTLE
 ENDC
 	end_grass_wildmons
 
