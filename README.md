@@ -1,3 +1,7 @@
+# moemon-red
+
+Built off pokered-gbc, based on the pokered disassembly by pret. See below for original READMEs:
+
 # pokered-gbc
 
 Pokémon Red/Blue overhauled with full GBC support. Made by FroggestSpirit, Drenn, and dannye. Also check out the crysaudio branch.

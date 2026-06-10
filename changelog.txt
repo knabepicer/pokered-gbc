@@ -1,0 +1,15 @@
+-Uses GBC colorization and gen 2 trainers sprites
+-Displays exp bar in battle, and indicator for caught wild pokemon
+-Unique menu sprites for each pokemon
+-Hold B to run/surf/bike faster
+
+
+
+
+
+
+
+Credits
+-pokered-gbc disassembly by FroggestSpirit, Drenn, and dannye, based on pokered disassembly by pret
+-Unique menu sprites for each pokemon by Blue Emerald, Chamber_, Soloo993, et al., 
+-running shoes by Luna
