@@ -46,7 +46,7 @@ SuperRodData:
 
 .Group2:
 	db 2
-	db 15, GOLDEEN
+	db 15, PSYDUCK
 	db 15, POLIWAG
 
 .Group3:
