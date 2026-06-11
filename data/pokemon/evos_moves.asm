@@ -539,12 +539,13 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 18, VINE_WHIP
+	db 21, POISONPOWDER
 	db 29, ABSORB
-	db 32, POISONPOWDER
 	db 36, STUN_SPORE
 	db 39, SLEEP_POWDER
 	db 45, SLAM
-	db 49, GROWTH
+	db 48, GROWTH
 	db 0
 
 MissingNo1FEvosMoves:
@@ -622,6 +623,7 @@ SlowpokeEvosMoves:
 KadabraEvosMoves:
 ; Evolutions
 	db EVOLVE_TRADE, 1, ALAKAZAM
+	db EVOLVE_LEVEL, 35, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -635,6 +637,7 @@ KadabraEvosMoves:
 GravelerEvosMoves:
 ; Evolutions
 	db EVOLVE_TRADE, 1, GOLEM
+	db EVOLVE_LEVEL, 35, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -660,6 +663,7 @@ ChanseyEvosMoves:
 MachokeEvosMoves:
 ; Evolutions
 	db EVOLVE_TRADE, 1, MACHAMP
+	db EVOLVE_LEVEL, 35, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1694,6 +1698,7 @@ MissingNo92EvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EVOLVE_TRADE, 1, GENGAR
+	db EVOLVE_LEVEL, 35, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1851,9 +1856,9 @@ PonytaEvosMoves:
 	db EVOLVE_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
+	db 15, GROWL
+	db 22, STOMP
+	db 27, TAIL_WHIP
 	db 39, FIRE_SPIN
 	db 43, TAKE_DOWN
 	db 48, AGILITY

@@ -10,10 +10,10 @@ PrizeMenuMon1Entries:
 	db ABRA
 	db CLEFAIRY
 IF DEF(_RED)
-	db NIDORINA
+	db PINSIR
 ENDC
 IF DEF(_BLUE)
-	db NIDORINO
+	db SCYTHER
 ENDC
 	db "@"
 
@@ -21,12 +21,13 @@ PrizeMenuMon1Cost:
 IF DEF(_RED)
 	bcd2 180
 	bcd2 500
+	bcd2 2500
 ENDC
 IF DEF(_BLUE)
 	bcd2 120
 	bcd2 750
+	bcd2 3000
 ENDC
-	bcd2 1200
 	db "@"
 
 PrizeMenuMon2Entries:

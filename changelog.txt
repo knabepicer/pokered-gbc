@@ -2,16 +2,42 @@
 -Displays exp bar in battle, and indicator for caught wild pokemon
 -Unique menu sprites for each pokemon
 -Hold B to run/surf/bike faster
+-Trade evos evolve at level 35
 
 
-Encounter changes (many based on shin pokemon red):
+Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
 Squirtle added to route 6
-Charmander added to roue 25
+Charmander added to route 25
 Ekans and Sandshrew can be found in route 4 regardless of version (but rarer on swapped versions)
 Vulpix and Growlithe can be found in route 8 regardless of version (but rarer on swapped versions)
 Mankey and Meowth can be found in route 5 regardless of version (but rarer on swapped versions)
 Oddish and Bellsprout can be found in route 5 regardless of version (but rarer on swapped versions)
+Farfetch'd added to routes 12 and 13
+Cubone added to rock tunnel
+Dodrio added to route 17
+Electabuzz added to power plant in all versions
+Porygon added to power plant
+Magmar added to pokemon mansion basement in all versions
+Tangela added to route 7
+Snorlax added to victory road
+Eevee added to route 21
+Scyther and Pinsir in Safari Zone central area regardless of version, as well as game corner
+Jynx added to Seafoam islands B2F, B3F, B4F
+Lapras replaces Krabby in Safari Zone fishing, also silph co. gift Lapras level is raised to 25
+Magnemite added to route 10
+Hitmonlee/Hitmonchan added to cerulean cave B1F, 1F
+Lickitung added to safari zone east
+Mr. Mime added to safari zone west
+Ponyta added to route 7, 17
+Seaking, Tentacruel added to sea routes 19, 20, 21
+Psyduck replaces goldeen in route 22 fishing
+Sandslash and Arbok swapped in cerulean cave 1F
+
+Moveset changes:
+Tangela learns vine whip at level 18, poison powder at 21
+Ponyta learns growl at level 15, stomp at 22, tail whip at 27
+
 
 
 

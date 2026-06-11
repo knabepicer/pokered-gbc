@@ -14,7 +14,7 @@ ELSE
 ENDC
 	dw LaprasPicFront, LaprasPicBack
 
-	db WATER_GUN, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWL, WATER_GUN, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

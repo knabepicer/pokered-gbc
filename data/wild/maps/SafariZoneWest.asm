@@ -18,7 +18,7 @@ IF DEF(_BLUE)
 	db 26, EXEGGCUTE
 	db 25, NIDORAN_M
 ENDC
-	db 31, VENOMOTH
+	db 31, MR_MIME
 	db 26, TAUROS
 	db 28, KANGASKHAN
 	end_grass_wildmons
