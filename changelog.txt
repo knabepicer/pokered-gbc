@@ -4,6 +4,7 @@
 -Hold B to run/surf/bike faster
 -Trade evos evolve at level 35
 -Many trainers edited to ensure fighting all trainers will have you encounter all pokemon lines at least once, bar legendaries (ex: Eevee added to Female Jr. Trainers) and for more variety
+-Ghost (Lick) SE against psychic, Poison neutral against Bug
 
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
