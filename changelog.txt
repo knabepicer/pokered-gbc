@@ -3,7 +3,7 @@
 -Unique menu sprites for each pokemon
 -Hold B to run/surf/bike faster
 -Trade evos evolve at level 35
-
+-Many trainers edited to ensure fighting all trainers will have you encounter all pokemon lines at least once, bar legendaries (ex: Eevee added to Female Jr. Trainers) and for more variety
 
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
@@ -33,11 +33,12 @@ Ponyta added to route 7, 17
 Seaking, Tentacruel added to sea routes 19, 20, 21
 Psyduck replaces goldeen in route 22 fishing
 Sandslash and Arbok swapped in cerulean cave 1F
+Fishing in Cerulean Cave with super rod can obtain Kabuto/Omanyte/Gyarados/Dewgong
 
 Moveset changes:
 Tangela learns vine whip at level 18, poison powder at 21
 Ponyta learns growl at level 15, stomp at 22, tail whip at 27
-
+Eevee updated to yellow learnset: Tail Whip at level 1, Sand Attack at level 8, Growl at level 16
 
 
 

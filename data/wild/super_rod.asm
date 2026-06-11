@@ -31,9 +31,9 @@ SuperRodData:
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
 	dbw SAFARI_ZONE_CENTER,  .Group6
-	dbw CERULEAN_CAVE_2F,    .Group9
-	dbw CERULEAN_CAVE_B1F,   .Group9
-	dbw CERULEAN_CAVE_1F,    .Group9
+	dbw CERULEAN_CAVE_2F,    .Group11
+	dbw CERULEAN_CAVE_B1F,   .Group11
+	dbw CERULEAN_CAVE_1F,    .Group11
 	db -1 ; end
 
 ; fishing groups
@@ -99,3 +99,11 @@ SuperRodData:
 	db 15, KRABBY
 	db 15, GOLDEEN
 	db 15, MAGIKARP
+
+.Group11:
+	db 4
+	db 30, KABUTO
+	db 30, OMANYTE
+	db 30, GYARADOS
+	db 30, DEWGONG
+	
