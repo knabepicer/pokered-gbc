@@ -7,6 +7,8 @@
 -Ghost (Lick) SE against psychic, Poison neutral against Bug
 -Leech Seed/Poison/Burn tweaked to 1/8 max HP damage
 -Focus Energy bug fixed
+-Bag size increased to 50
+-Press B to quickly run from battle
 
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
