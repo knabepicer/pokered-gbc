@@ -1689,7 +1689,7 @@ ItemUsePokeFlute:
 	ret
 .notRoute12
 	cp ROUTE_16
-	jr nz, .noSnorlaxToWakeUp
+	jr nz, .notRoute16
 	CheckEvent EVENT_BEAT_ROUTE16_SNORLAX
 	jr nz, .noSnorlaxToWakeUp
 ; if the player hasn't beaten Route 16 Snorlax
@@ -1699,6 +1699,16 @@ ItemUsePokeFlute:
 	ld hl, PlayedFluteHadEffectText
 	call PrintText
 	SetEvent EVENT_FIGHT_ROUTE16_SNORLAX
+	ret
+.notRoute16
+	cp POKEMON_MANSION_B1F
+	jr nz, .noSnorlaxToWakeUp
+	CheckEvent EVENT_BEAT_MEW
+	jr nz, .noSnorlaxToWakeUp
+; if player hasn't beaten Mew
+	ld hl, PlayedFluteHadEffectText
+	call PrintText
+	SetEvent EVENT_FIGHT_MEW
 	ret
 .noSnorlaxToWakeUp
 	ld hl, PlayedFluteNoEffectText

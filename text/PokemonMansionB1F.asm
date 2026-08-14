@@ -37,3 +37,19 @@ _PokemonMansionB1FDiaryText::
 	line "curb its vicious"
 	cont "tendencies..."
 	done
+
+_PokemonMansionB1FMewAppearText::
+	text "As you play,"
+	line "you hear an odd"
+	cont "sound, like a"
+	cont "#MON humming"
+	cont "to your tune..."
+	done
+
+_PokemonMansionB1FMewDisappearText::
+	text "The mysterious"
+	line "#MON vanished,"
+	cont "like it was never" 
+	cont "there at all..."
+	done
+

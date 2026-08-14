@@ -53,11 +53,57 @@ Mansion4Script_Switches::
 	ldh [hTextID], a
 	jp DisplayTextID
 
+PokemonMansionResetScripts:
+	xor a
+	ld [wJoyIgnore], a
+	ld [wPokemonMansionB1FCurScript], a
+	ld [wCurMapScript], a
+	ret
+
 PokemonMansionB1F_ScriptPointers:
 	def_script_pointers
-	dw_const CheckFightingMapTrainers,              SCRIPT_POKEMONMANSIONB1F_DEFAULT
+	dw_const PokemonMansionDefaultScript,              SCRIPT_POKEMONMANSIONB1F_DEFAULT
 	dw_const DisplayEnemyTrainerTextAndStartBattle, SCRIPT_POKEMONMANSIONB1F_START_BATTLE
 	dw_const EndTrainerBattle,                      SCRIPT_POKEMONMANSIONB1F_END_BATTLE
+	dw_const PokemonMansionMewPostBattleScript,			SCRIPT_MEW_POST_BATTLE
+
+PokemonMansionDefaultScript:
+	CheckEventHL EVENT_BEAT_MEW
+	jp nz, CheckFightingMapTrainers
+	CheckEventReuseHL EVENT_FIGHT_MEW
+	ResetEventReuseHL EVENT_FIGHT_MEW
+	jp z, CheckFightingMapTrainers
+	ld a, TEXT_MEW_APPEARS
+	ldh [hTextID], a
+	call DisplayTextID
+	ld a, MEW
+	ld [wCurOpponent], a
+	ld a, 75
+	ld [wCurEnemyLevel], a
+	ld a, SCRIPT_MEW_POST_BATTLE
+	ld [wPokemonMansionB1FCurScript], a
+	ld [wCurMapScript], a
+	ret
+
+PokemonMansionMewPostBattleScript:
+	SetEvent EVENT_BEAT_MEW
+	ld a, [wIsInBattle]
+	cp $ff
+	jr z, PokemonMansionResetScripts
+	call UpdateSprites
+	ld a, [wBattleResult]
+	cp $2
+	jr z, .caught_mew
+	ld a, TEXT_MEW_DISAPPEARS
+	ldh [hTextID], a
+	call DisplayTextID
+.caught_mew
+	SetEvent EVENT_BEAT_MEW
+	call Delay3
+	ld a, SCRIPT_POKEMONMANSIONB1F_DEFAULT
+	ld [wRoute12CurScript], a
+	ld [wCurMapScript], a
+	ret
 
 PokemonMansionB1F_TextPointers:
 	def_text_pointers
@@ -70,6 +116,8 @@ PokemonMansionB1F_TextPointers:
 	dw_const PokemonMansionB1FDiaryText,     TEXT_POKEMONMANSIONB1F_DIARY
 	dw_const PickUpItemText,                 TEXT_POKEMONMANSIONB1F_SECRET_KEY
 	dw_const PokemonMansion2FSwitchText,     TEXT_POKEMONMANSIONB1F_SWITCH ; This switch uses the text script from the 2F.
+	dw_const PokemonMansionB1FMewAppearText,	TEXT_MEW_APPEARS
+	dw_const PokemonMansionB1FMewDisappearText,	TEXT_MEW_DISAPPEARS
 
 Mansion4TrainerHeaders:
 	def_trainers
@@ -117,4 +165,12 @@ PokemonMansionB1FScientistAfterBattleText:
 
 PokemonMansionB1FDiaryText:
 	text_far _PokemonMansionB1FDiaryText
+	text_end
+
+PokemonMansionB1FMewAppearText:
+	text_far _PokemonMansionB1FMewAppearText
+	text_end
+
+PokemonMansionB1FMewDisappearText:
+	text_far _PokemonMansionB1FMewDisappearText
 	text_end
