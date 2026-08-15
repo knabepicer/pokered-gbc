@@ -21,6 +21,21 @@ PokemonTower7F_ScriptPointers:
 	dw_const PokemonTower7FEndBattleScript,         SCRIPT_POKEMONTOWER7F_END_BATTLE
 	dw_const PokemonTower7FHideNPCScript,           SCRIPT_POKEMONTOWER7F_HIDE_NPC
 	dw_const PokemonTower7FWarpToMrFujiHouseScript, SCRIPT_POKEMONTOWER7F_WARP_TO_MR_FUJI_HOUSE
+	dw_const PokemonTower7FFujiEndBattleScript,     SCRIPT_POKEMONTOWER7F_END_BATTLE_FUJI
+
+PokemonTower7FFujiEndBattleScript:
+	ld a, [wIsInBattle]
+	cp $ff
+	jp z, PokemonTower7FSetDefaultScript
+	ld a, PAD_CTRL_PAD
+	ld [wJoyIgnore], a
+	ld a, TEXT_POKEMONTOWER7F_MR_FUJI_POST_BATTLE
+	ldh [hTextID], a
+	call DisplayTextID
+	SetEvent EVENT_BEAT_FUJI
+	ld [wPokemonTower7FCurScript], a
+	ld [wCurMapScript], a
+	jp PokemonTower7FSetDefaultScript
 
 PokemonTower7FEndBattleScript:
 	ld hl, wMiscFlags
@@ -30,17 +45,6 @@ PokemonTower7FEndBattleScript:
 	jp z, PokemonTower7FSetDefaultScript
 	call EndTrainerBattle
 	ld a, PAD_CTRL_PAD
-	CheckEvent EVENT_BEAT_MEWTWO
-	jr z, DidNotBeatMewtwo
-	ld a, TEXT_POKEMONTOWER7F_MR_FUJI_POST_BATTLE
-	ldh [hTextID], a
-	call DisplayTextID
-	SetEvent EVENT_BEAT_FUJI
-	ld a, TOGGLE_POKEMON_TOWER_7F_MR_FUJI
-	ld [wToggleableObjectIndex], a
-	predef ShowObject
-	jr End
-DidNotBeatMewtwo:
 	ld [wJoyIgnore], a
 	ld a, [wSpriteIndex]
 	ldh [hSpriteIndex], a
@@ -49,7 +53,7 @@ DidNotBeatMewtwo:
 	ld a, SCRIPT_POKEMONTOWER7F_HIDE_NPC
 	ld [wPokemonTower7FCurScript], a
 	ld [wCurMapScript], a
-End:
+	ret
 	ret
 
 PokemonTower7FHideNPCScript:
@@ -284,14 +288,14 @@ PokemonTower7FMrFujiText:
 	call PrintText
 	jr .done
 .endBattle
-	ld a, SCRIPT_POKEMONTOWER7F_END_BATTLE
+	ld a, SCRIPT_POKEMONTOWER7F_END_BATTLE_FUJI
 	ld [wPokemonTower7FCurScript], a
 	ld [wCurMapScript], a
 	jr .done
 .FinalTalk
 	ld hl, .PostBattleRetalkFujiText
 	call PrintText
-	.done
+.done
 	jp TextScriptEnd
 
 .PostBattleRetalkFujiText:

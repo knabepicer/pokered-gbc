@@ -20,6 +20,8 @@ _FujiDefeatedText::
 
 _FujiPostBattleText::
 	text "Testing 5"
+	cont "Testing 6"
+	cont "Testing 7"
 	done
 
 _PokemonTower7FMrFujiRescueText::
