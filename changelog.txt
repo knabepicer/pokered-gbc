@@ -9,6 +9,7 @@
 -Focus Energy bug fixed
 -Bag size increased to 50
 -Press B to quickly run from battle
+-Added method to obtain Mew (if failed to capture on first battle, can reset by defeating League)
 
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
