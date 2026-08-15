@@ -167,7 +167,7 @@ TrainerPalettes: ; Gen II trainer sprites are given their own palettes
 	db PAL_BIKER
 	db PAL_BURGLAR
 	db PAL_ENGINEER
-	db PAL_JUGGLER
+	db PAL_MR_FUJI
 	db PAL_FISHERMAN
 	db PAL_SWIMMER
 	db PAL_CUEBALL

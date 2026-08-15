@@ -174,7 +174,7 @@ BirdKeeperPic::    INCBIN "gfx/gstrainers/birdkeeper.pic"
 BlackbeltPic::     INCBIN "gfx/gstrainers/blackbelt.pic"
 Rival1Pic::        INCBIN "gfx/gstrainers/rival1.pic"
 ProfOakPic::       INCBIN "gfx/gstrainers/prof.oak.pic"
-ChiefPic::
+MrFujiPic::        INCBIN "gfx/gstrainers/mrfuji.pic"
 ScientistPic::     INCBIN "gfx/gstrainers/scientist.pic"
 GiovanniPic::      INCBIN "gfx/gstrainers/giovanni.pic"
 RocketPic::        INCBIN "gfx/gstrainers/rocket.pic"
