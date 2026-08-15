@@ -1705,6 +1705,8 @@ ItemUsePokeFlute:
 	jr nz, .noSnorlaxToWakeUp
 	CheckEvent EVENT_BEAT_MEW
 	jr nz, .noSnorlaxToWakeUp
+	CheckEvent EVENT_BEAT_FUJI
+	jr z, .noSnorlaxToWakeUp
 ; if player hasn't beaten Mew
 	ld hl, PlayedFluteHadEffectText
 	call PrintText

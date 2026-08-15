@@ -375,7 +375,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x16: SPRITE_MR_FUJI
-	db SPR_PAL_GREEN
+	db SPR_PAL_BLUE
 
 	; 0x17: SPRITE_GIOVANNI
 	db SPR_PAL_BLUE

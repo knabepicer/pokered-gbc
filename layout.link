@@ -47,6 +47,7 @@ ROMX $2
 	"Music Headers 1"
 	"Sound Effects 1"
 	"Audio Engine 1"
+	"Music 1"
 ROMX $3
 	"bank3"
 ROMX $4
@@ -219,9 +220,7 @@ ROMX $38
 ROMX $39
 	org $4000
 	"Party Mon Sprites Gfx 2"
-	"Party Mon Sprites Routines"
-ROMX $40
-	"Music 1"
+	"Party Mon Sprites Routines"	
 WRAM0
 	"Audio RAM"
 	org $c100

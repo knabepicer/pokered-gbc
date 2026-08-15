@@ -20,6 +20,12 @@ CeruleanCaveDefaultScript:
 	ResetEventReuseHL EVENT_FIGHT_MEWTWO
 	jp z, CheckFightingMapTrainers
 	SetEvent EVENT_BEAT_MEWTWO
+	ld a, TOGGLE_MR_FUJIS_HOUSE_MR_FUJI
+	ld [wToggleableObjectIndex], a
+	predef HideObject
+	ld a, TOGGLE_POKEMON_TOWER_7F_MR_FUJI
+	ld [wToggleableObjectIndex], a
+	predef ShowObject
 	ld a, TEXT_CERULEANCAVEB1F_MEWTWO_POST
 	ldh [hTextID], a
 	call DisplayTextID

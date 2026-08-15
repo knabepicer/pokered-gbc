@@ -1,3 +1,27 @@
+_PostBattleRetalkFujiText::
+	text "Testing 99"
+	done
+
+_PreBattleFujiText::
+	text "Testing 1"
+	done
+
+_PreBattleFujiAcceptedText::
+	text "Testing 2"
+	done
+
+_PreBattleFujiRefusedText::
+	text "Testing 3"
+	done
+
+_FujiDefeatedText::
+	text "Testing 4"
+	prompt
+
+_FujiPostBattleText::
+	text "Testing 5"
+	done
+
 _PokemonTower7FMrFujiRescueText::
 	text "MR.FUJI: Heh? You"
 	line "came to save me?"

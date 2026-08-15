@@ -1,3 +1,12 @@
+_MrFujiGoneAgainText::
+	text "MR.FUJI? I saw"
+	line "him go into"
+	cont "#MON TOWER."
+	cont "He seemed to be"
+	cont "in a daze..."
+	done
+
+
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
 	text "That's odd, MR.FUJI"
 	line "isn't here."

@@ -226,7 +226,7 @@ IF GEN_2_GRAPHICS
 	const PAL_BIKER         ; $C5
 	const PAL_BURGLAR       ; $C6
 	const PAL_ENGINEER      ; $C7
-	const PAL_JUGGLER       ; $C8
+	const PAL_MR_FUJI       ; $C8
 	const PAL_FISHERMAN     ; $C9
 	const PAL_SWIMMER       ; $CA
 	const PAL_CUEBALL       ; $CB
@@ -262,6 +262,5 @@ IF GEN_2_GRAPHICS
 	const PAL_AGATHA        ; $E9
 	const PAL_LANCE         ; $EA
 	const PAL_HERO          ; $EB
-	const PAL_MR_FUJI       ; $EC
 ENDC
 DEF NUM_SGB_PALS EQU const_value

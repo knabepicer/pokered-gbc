@@ -13,6 +13,8 @@ MrFujisHouse_TextPointers:
 
 MrFujisHouseSuperNerdText:
 	text_asm
+	CheckEvent EVENT_BEAT_MEWTWO
+	jr nz, .gone_again
 	CheckEvent EVENT_RESCUED_MR_FUJI
 	jr nz, .rescued_mr_fuji
 	ld hl, .MrFujiIsntHereText
@@ -21,8 +23,16 @@ MrFujisHouseSuperNerdText:
 .rescued_mr_fuji
 	ld hl, .MrFujiHadBeenPrayingText
 	call PrintText
+	jr .done
+.gone_again
+	ld hl, .MrFujiGoneAgainText
+	call PrintText
 .done
 	jp TextScriptEnd
+
+.MrFujiGoneAgainText:
+	text_far _MrFujiGoneAgainText
+	text_end
 
 .MrFujiIsntHereText:
 	text_far _MrFujisHouseSuperNerdMrFujiIsntHereText
