@@ -6,11 +6,14 @@
 -Many trainers edited to ensure fighting all trainers will have you encounter all pokemon lines at least once, bar legendaries (ex: Eevee added to Female Jr. Trainers) and for more variety
 -Ghost (Lick) SE against psychic, Poison neutral against Bug
 -Leech Seed/Poison/Burn tweaked to 1/8 max HP damage
--Focus Energy bug fixed
 -Bag size increased to 50
 -Press B to quickly run from battle
--Added method to obtain Mew (if failed to capture on first battle, can reset by defeating League)
 
+-Focus Energy bug fixed
+-Incorrect battle text for effectiveness against dual-type Pokémon fixed
+-Moves with 100% to hit/crit no longer have 1/256 chance of missing
+
+All Pokémon can be obtained in both Red and Blue patches! (Yes, even that one)
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
 Squirtle added to route 6
