@@ -126,7 +126,7 @@ _VermilionGymGymGuideChampInMakingText::
 	para "He's an expert on"
 	line "electric #MON!"
 
-	para "Birds and water"
+	para "Flying and water"
 	line "#MON are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"

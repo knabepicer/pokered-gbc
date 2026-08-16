@@ -8,11 +8,13 @@
 -Leech Seed/Poison/Burn tweaked to 1/8 max HP damage
 -Bag size increased to 50
 -Press B to quickly run from battle
+-Safari Balls now function like Great Balls, improving their catchrates against most/all Safari Zone captures
 
 -Focus Energy bug fixed
 -Incorrect battle text for effectiveness against dual-type Pokémon fixed
 -Moves with 100% to hit/crit no longer have 1/256 chance of missing
 -Misc trainer AI fixes
+-Fixed bug where transformed wild pokemon is assumed to be Ditto
 
 All Pokémon can be obtained in both Red and Blue patches! (Yes, even that one)
 Encounter changes (mostly based on yellow/shin pokemon red):

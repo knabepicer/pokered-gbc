@@ -203,12 +203,14 @@ ItemUseBall:
 	cp b
 	jr c, .loop
 
-; Less than or equal to 200 is good enough for a Great Ball.
+; Less than or equal to 200 is good enough for a Great/Safari Ball.
 	ld a, [hl]
 	cp GREAT_BALL
 	jr z, .checkForAilments
+	cp SAFARI_BALL
+	jr z, .checkForAilments
 
-; If it's an Ultra/Safari Ball and Rand1 is greater than 150, try again.
+; If it's an Ultra Ball and Rand1 is greater than 150, try again.
 	ld a, 150
 	cp b
 	jr c, .loop
@@ -250,12 +252,14 @@ ItemUseBall:
 	ldh [hMultiplier], a
 	call Multiply
 
-; Determine BallFactor. It's 8 for Great Balls and 12 for the others.
+; Determine BallFactor. It's 8 for Great Balls/Safari Balls and 12 for the others.
 	ld a, [wCurItem]
 	cp GREAT_BALL
-	ld a, 12
-	jr nz, .skip1
 	ld a, 8
+	jr z, .skip1
+	cp SAFARI_BALL
+	jr z, .skip1
+	ld a, 12
 
 .skip1
 ; Note that the results of all division operations are floored.
@@ -474,8 +478,6 @@ ItemUseBall:
 	ld hl, wEnemyBattleStatus3
 	bit TRANSFORMED, [hl]
 	jr z, .notTransformed
-	ld a, DITTO
-	ld [wEnemyMonSpecies2], a
 	jr .skip6
 
 .notTransformed
