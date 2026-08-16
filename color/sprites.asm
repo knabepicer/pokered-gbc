@@ -375,7 +375,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x16: SPRITE_MR_FUJI
-	db SPR_PAL_BLUE
+	db SPR_PAL_BROWN
 
 	; 0x17: SPRITE_GIOVANNI
 	db SPR_PAL_BLUE
@@ -490,6 +490,27 @@ SpritePaletteAssignments: ; Characters on the overworld
 
 	; 0x3c: SPRITE_SEEL
 	db SPR_PAL_BLUE
+
+	; SPRITE_BROCK
+	db SPR_PAL_BROWN
+
+	; SPRITE_MISTY
+	db SPR_PAL_ORANGE
+
+	; SPRITE_SURGE
+	db SPR_PAL_BROWN
+
+	; SPRITE_ERIKA
+	db SPR_PAL_GREEN
+
+	; SPRITE_SABRINA
+	db SPR_PAL_ORANGE
+
+	; SPRITE_KOGA_NEW
+	db SPR_PAL_PURPLE
+
+	; SPRITE_BLAINE
+	db SPR_PAL_BROWN
 
 	; 0x3d: SPRITE_BALL
 	db SPR_PAL_ORANGE

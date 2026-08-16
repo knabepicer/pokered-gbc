@@ -1,4 +1,4 @@
--Uses GBC colorization and gen 2 trainers sprites
+-Uses GBC colorization and gen 2 trainers sprites (some sprites edited to match aesthetic, eg: tamer)
 -Displays exp bar in battle, and indicator for caught wild pokemon
 -Unique menu sprites for each pokemon
 -Hold B to run/surf/bike faster
