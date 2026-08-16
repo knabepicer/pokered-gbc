@@ -7,7 +7,7 @@
 -Ghost (Lick) SE against psychic, Poison neutral against Bug
 -Leech Seed/Poison/Burn tweaked to 1/8 max HP damage
 -Bag size increased to 50
--Press B to quickly run from battle
+-Press B to quickly run from wild battle
 -Safari Balls now function like Great Balls, improving their catchrates against most/all Safari Zone captures
 
 -Focus Energy bug fixed
@@ -16,7 +16,7 @@
 -Misc trainer AI fixes
 -Fixed bug where transformed wild pokemon is assumed to be Ditto
 
-All Pokémon can be obtained in both Red and Blue patches! (Yes, even that one)
+All Pokémon (Yes, even that one) can be obtained in both Red and Blue patches! 
 Encounter changes (mostly based on yellow/shin pokemon red):
 Bulbasaur added to route 4
 Squirtle added to route 6

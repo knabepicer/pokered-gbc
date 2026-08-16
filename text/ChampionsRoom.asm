@@ -59,7 +59,8 @@ _RivalVictoryText::
 	para "You did well to"
 	line "even reach me,"
 	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	cont "#MON league"
+	cont "champion!"
 
 	para "Nice try, loser!"
 	line "Hahaha!"

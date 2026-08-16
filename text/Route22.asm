@@ -39,11 +39,14 @@ _Route22Rival1DefeatedText::
 
 _Route22Rival1VictoryText::
 	text "<RIVAL>: What?"
-	line "Why do I have 2"
+	line "With only 2"
 	cont "#MON?"
+	
+	para "I'm not satisfied"
+	line "with this win..."
 
 	para "You should catch"
-	cont "some more too!"
+	line "some more too!"
 	prompt
 
 _Route22RivalBeforeBattleText2::
