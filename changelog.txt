@@ -12,6 +12,7 @@
 -Focus Energy bug fixed
 -Incorrect battle text for effectiveness against dual-type Pokémon fixed
 -Moves with 100% to hit/crit no longer have 1/256 chance of missing
+-Misc trainer AI fixes
 
 All Pokémon can be obtained in both Red and Blue patches! (Yes, even that one)
 Encounter changes (mostly based on yellow/shin pokemon red):

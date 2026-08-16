@@ -15,7 +15,13 @@ _PreBattleFujiRefusedText::
 	done
 
 _FujiDefeatedText::
-	text "Testing 4"
+	text "Ah..."
+	line "I see it."
+	cont "That combination"
+	cont "of kindness and"
+	cont "strength..."
+	cont "If it's you,"
+	cont "then perhaps..."
 	prompt
 
 _FujiPostBattleText::
