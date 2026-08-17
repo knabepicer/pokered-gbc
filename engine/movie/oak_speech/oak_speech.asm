@@ -81,8 +81,8 @@ ENDC
 	call PrintText
 	call GBFadeOutToWhite
 	;call ClearScreen
-	call GetNidorinoPalID ; HAX
-	ld a, NIDORINO
+	call GetNidorinaPalID ; HAX
+	ld a, NIDORINA
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetMonHeader
