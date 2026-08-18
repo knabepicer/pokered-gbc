@@ -102,6 +102,19 @@ SpriteSheetPointerTable:
 	overworld_sprite SpearowSprite, 12          ; SPRITE_SPEAROW
 	overworld_sprite PidgeotSprite, 12          ; SPRITE_PIDGEOT
 	overworld_sprite PidgeySprite, 12           ; SPRITE_PIDGEY
+	overworld_sprite PsychicSprite, 12          ; SPRITE_PSYCHIC
+	overworld_sprite CooltrainerFRealSprite, 12 ; SPRITE_COOLTRAINER_F_REAL
+	overworld_sprite CooltrainerMRealSprite, 12 ; SPRITE_COOLTRAINER_M_REAL
+	overworld_sprite TamerSprite, 12            ; SPRITE_TAMER
+	overworld_sprite BurglarSprite, 12          ; SPRITE_BURGLAR
+	overworld_sprite JugglerSprite, 12          ; SPRITE_JUGGLER
+	overworld_sprite CueballSprite, 12          ; SPRITE_CUEBALL
+	overworld_sprite JrTrainerFSprite, 12       ; SPRITE_JR_TRAINER_F
+	overworld_sprite EngineerSprite, 12         ; SPRITE_ENGINEER
+	overworld_sprite SuperNerdRealSprite, 12    ; SPRITE_SUPER_NERD_REAL
+	overworld_sprite PokemaniacSprite, 12       ; SPRITE_POKEMANIAC
+	overworld_sprite BirdkeeperSprite, 12       ; SPRITE_BIRDKEEPER
+	overworld_sprite BugCatcherSprite, 12       ; SPRITE_BUG_CATCHER
 
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
