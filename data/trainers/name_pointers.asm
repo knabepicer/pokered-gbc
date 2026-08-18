@@ -50,6 +50,7 @@ TrainerNamePointers:
 	dw wTrainerName
 	dw wTrainerName
 	dw wTrainerName
+	dw wTrainerName ; swimmer_f
 	assert_table_length NUM_TRAINERS
 
 .YoungsterName:     db "YOUNGSTER@"
@@ -61,7 +62,7 @@ TrainerNamePointers:
 .SuperNerdName:     db "SUPER NERD@"
 .BurglarName:       db "BURGLAR@"
 .EngineerName:      db "ENGINEER@"
-.SwimmerName:       db "SWIMMER@"
+.SwimmerName:       db "SWIMMER♂@"
 .BeautyName:        db "BEAUTY@"
 .RockerName:        db "ROCKER@"
 .JugglerName:       db "JUGGLER@"

@@ -14,7 +14,7 @@ TrainerNames::
 	li "ENGINEER"
 	li "MR. FUJI"
 	li "FISHERMAN"
-	li "SWIMMER"
+	li "SWIMMER♂"
 	li "CUE BALL"
 	li "GAMBLER"
 	li "BEAUTY"
@@ -47,4 +47,5 @@ TrainerNames::
 	li "CHANNELER"
 	li "AGATHA"
 	li "LANCE"
+	li "SWIMMER♀"
 	assert_list_length NUM_TRAINERS

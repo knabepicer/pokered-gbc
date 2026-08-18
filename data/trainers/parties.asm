@@ -47,6 +47,7 @@ TrainerDataPointers:
 	dw ChannelerData
 	dw AgathaData
 	dw LanceData
+	dw SwimmerFData
 	assert_table_length NUM_TRAINERS
 
 ; if first byte != $FF, then
@@ -760,3 +761,15 @@ AgathaData:
 
 LanceData:
 	db $FF, 58, GYARADOS, 56, DRAGONAIR, 56, DRAGONAIR, 60, AERODACTYL, 62, DRAGONITE, 0
+
+SwimmerFData:
+; Route 20 ( all from beauty)
+	db 35, SEAKING, 0
+	db 30, SHELLDER, SHELLDER, CLOYSTER, 0
+	db 31, POLIWAG, SEAKING, 0
+; Route 19
+	db 27, POLIWAG, GOLDEEN, SEAKING, GOLDEEN, POLIWAG, 0
+	db 30, GOLDEEN, SEAKING, 0
+	db 29, STARYU, STARYU, STARYU, 0
+; Route 20
+	db 30, SEADRA, HORSEA, SEADRA, 0

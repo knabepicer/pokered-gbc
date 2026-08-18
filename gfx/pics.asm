@@ -195,6 +195,7 @@ ChannelerPic::     INCBIN "gfx/gstrainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/gstrainers/agatha.pic"
 LancePic::         INCBIN "gfx/gstrainers/lance.pic"
 MrFujiPic::        INCBIN "gfx/gstrainers/mrfuji.pic"
+SwimmerFPic::      INCBIN "gfx/gstrainers/swimmer_f.pic"
 ENDC
 
 IF !GEN_2_GRAPHICS
