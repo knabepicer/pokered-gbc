@@ -2,8 +2,8 @@ _MrFujiGoneAgainText::
 	text "MR.FUJI? I saw"
 	line "him go into"
 	cont "#MON TOWER."
-	cont "He seemed to be"
-	cont "in a daze..."
+	para "He seemed to be"
+	line "in a daze..."
 	done
 
 
